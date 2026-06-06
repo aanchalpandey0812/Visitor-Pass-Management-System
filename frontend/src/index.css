@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f4f7fc;
+}
+
+.container {
+  padding: 25px;
+}
+
+.page-title {
+  margin-bottom: 25px;
+  color: #1f2937;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.stat-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow:
+    0 4px 15px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card h3 {
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.stat-card h2 {
+  color: #2563eb;
+  font-size: 32px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow:
+    0 4px 15px rgba(0,0,0,0.08);
+}
+
+table th {
+  background: #2563eb;
+  color: white;
+}
+
+table th,
+table td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+table tr:hover {
+  background: #f8fafc;
+}
+
+.sidebar {
+  width: 250px;
+  min-height: 100vh;
+  background: #111827;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  background: #2563eb;
+}
+
+img {
+  border-radius: 8px;
+}
