@@ -217,3 +217,4 @@ Future enhancements such as OTP verification, SMS notifications, multi-organizat
 
 Overall, the project achieves the objectives defined in the assignment and provides a strong foundation for a modern digital visitor management solution.
 
+After reviewing the feedback, I updated the repository with complete project documentation, setup instructions, feature descriptions, environment variable configuration, GitHub repository structure, authentication module implementation, screenshots, and a demo video demonstrating the working functionality of the Visitor Pass Management System.

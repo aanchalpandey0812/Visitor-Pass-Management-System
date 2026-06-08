@@ -32,20 +32,14 @@ function Login() {
       <div className="card">
         <h2>Login</h2>
 
-        <form
-          onSubmit={
-            handleLogin
-          }
-        >
+        <form onSubmit={handleLogin}>
           <div className="form-group">
             <input
               type="text"
               placeholder="Name"
               value={name}
               onChange={(e) =>
-                setName(
-                  e.target.value
-                )
+                setName(e.target.value)
               }
               required
             />
@@ -55,26 +49,13 @@ function Login() {
             <select
               value={role}
               onChange={(e) =>
-                setRole(
-                  e.target.value
-                )
+                setRole(e.target.value)
               }
             >
-              <option>
-                Admin
-              </option>
-
-              <option>
-                Security
-              </option>
-
-              <option>
-                Employee
-              </option>
-
-              <option>
-                Visitor
-              </option>
+              <option>Admin</option>
+              <option>Security</option>
+              <option>Employee</option>
+              <option>Visitor</option>
             </select>
           </div>
 

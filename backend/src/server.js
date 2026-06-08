@@ -8,7 +8,7 @@ const connectDB = require("./config/db");
 const app = express();
 
 
-//connectDB();
+connectDB();
 
 app.use(cors());
 app.use(express.json());

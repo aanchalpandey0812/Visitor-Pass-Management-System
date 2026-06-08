@@ -49,17 +49,21 @@ function App() {
                   "space-between",
                 alignItems: "center",
                 marginBottom: "20px",
+                background:
+                  "#ffffff",
+                padding: "15px 20px",
+                borderRadius: "10px",
+                boxShadow:
+                  "0 2px 8px rgba(0,0,0,0.1)",
               }}
             >
               <div>
                 <h3>
-                  Welcome,{" "}
-                  {user.name}
+                  Welcome, {user.name}
                 </h3>
 
                 <p>
-                  Role:{" "}
-                  {user.role}
+                  Role: {user.role}
                 </p>
               </div>
 
@@ -100,7 +104,9 @@ function App() {
 
               <Route
                 path="/passes"
-                element={<Passes />}
+                element={
+                  <Passes />
+                }
               />
 
               <Route
@@ -113,9 +119,7 @@ function App() {
               <Route
                 path="*"
                 element={
-                  <Navigate
-                    to="/"
-                  />
+                  <Navigate to="/" />
                 }
               />
             </Routes>
